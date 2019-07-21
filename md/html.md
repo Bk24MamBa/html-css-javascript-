@@ -4,7 +4,7 @@
 ***
 
 在html中，大部分标签都是成对出现的，一般包括head还有body两大部分  
-![v](1561992425(1).png)
+
 ##`<base>`
 `<base href="url" target="_blank">`  
 用来规定默认的URL和默认目标。  
@@ -16,7 +16,7 @@
 3. td表示单元格，后接/td
 
 
-![table](7.png)  
+![table](pictures/7.png)  
 ul 无序列表  
 #表单标签 input
 ## type
@@ -26,14 +26,14 @@ ul 无序列表
 4. checkbox：多选框（同上）
 5. submit：提交按钮，把表单数据提交到服务器 （value：指定按钮上的文字）
 6. reset：重置按钮，把表单还原
-![](16.png)
+![](pictures/pictures/16.png)
 
 ##多选框`<select>`
-![select](1.png)
+![select](pictures/1.png)
 
 ##文本框`<textarea>`
 rows表示行数，cols表示列数
-![textarea](41.png)
+![pictures/textarea](41.png)
 
 ## `<form>`:表示一个表单
 1. action：用来指定表单数据提交的地址，通常是服务器的地址
@@ -45,12 +45,12 @@ rows表示行数，cols表示列数
 1. `<ol>`有序列表
 2. `<ul>`无序列表
 3. `<li>`表示一个单元
-![m](58.png)
+![m](pictures/58.png)
 
 ##`<div>`（块）
 定义文档中的分区  
-![1](14.png)
-![1](49.png)
+![1](pictures/14.png)
+![1](pictures/49.png)
 
 ##内嵌网页iframe
 ###属性
@@ -65,8 +65,8 @@ cols按列切，同理
 **注意：要将body标签去掉，换成frameset标签**
 
 ##form表单标签
-![v](19.png)
+![v](pictures/19.png)
 ##
-![v](_20190717152735.png)
+![v](pictures/_20190717152735.png)
 **form表单数据的提交需要依赖于submit提交按钮**
-![](_20190717154703.png)
+![](pictures/_20190717154703.png)
