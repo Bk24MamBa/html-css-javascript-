@@ -39,3 +39,7 @@ alert();//弹窗
 ## 常用对象及其常用方法
 ![](pictures/_20190721160024.png)
 ![](pictures/_20190721160106.png)
+## window对象
+![](pictures/_20190723003448.png)
+![](pictures/_20190723011155.png)
+浏览器配置属性**window.navigator.userAgent**
