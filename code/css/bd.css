@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+}
+#div1{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 68px;
+}
+#div2{
+    width: 100%;
+    height: 440px;
+    text-align: center;
+}
+#div3{
+    width: 100%;
+    height: 310px;
+    text-align: center;
+}
+#ul{
+    position: absolute;
+    right: 90px;
+    top:22px;
+}
+#ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 13px;
+
+}
+#ul li a{
+    color: #333;
+}
+#ul li a:hover{
+    color: #00c;
+}
+input[type="text"]{
+    height: 36px;
+    width: 540px;
+    background-image: url("../pictures/camera.png");
+    background-repeat: no-repeat;
+    background-position-x: 510px;
+    background-position-y: 5px;
+    border: solid 1px #cad1d7;
+    margin-top: 20px;
+}
+input[type="submit"]{
+    width: 100px;
+    height: 40px;
+    background-color: #3385ff;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 1px;
+    border: solid 1px #3385ff;
+    position: relative;
+    right: 8px;
+    top:1px;
+}
+#cp{
+    float: right;
+    position: absolute;
+    right: 5px;
+    top:22px;
+    width: 65px;
+    height: 23px;
+    color: #fff;
+    background: #38f;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #38f;
+    margin-left: 19px;
+    margin-right: 2px;
+}

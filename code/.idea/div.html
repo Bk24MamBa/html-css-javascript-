@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>div</title>
+    <style type="text/css">
+        .class1{
+            width: 350px;
+            height: 400px;
+            margin: auto;
+        }
+        .class2{
+            width: 150px;
+            height: 180px;
+            margin: auto;
+        }
+        #d1{
+            border: solid 2px #fa172c;
+            float: left;
+            margin-left: 12px;
+        }
+        #d2{
+            border: solid 2px saddlebrown;
+            float: left;
+            margin-left: 18px;
+        }
+        #d3{
+            border: solid 2px blue;
+            float: left;
+            margin-left: 12px;
+            margin-right: 18px;
+        }
+        #d4{
+            border: solid 2px aquamarine;
+            float: left;
+        }
+        #d5{
+            width: 800px;
+            margin-bottom: 22px;
+            padding-top: 5px;
+        }
+        #d6{
+            width: 800px;
+            padding-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="d5" class="class1">
+        <div id="d1" class="class1">
+            <div id="d5" class="class2">
+                <div id="d1" class="class2">
+                    1
+                </div>
+                <div id="d2" class="class2">
+                    2
+                </div>
+            </div>
+            <div id="d6" class="class2">
+                <div id="d3" class="class2">
+                    3
+                </div>
+                <div id="d4" class="class2">
+                    4
+                </div>
+            </div>
+        </div>
+        <div id="d2" class="class1">
+            <div id="d5" class="class2">
+                <div id="d1" class="class2">
+                    5
+                </div>
+                <div id="d2" class="class2">
+                    6
+                </div>
+            </div>
+            <div id="d6" class="class2">
+                <div id="d3" class="class2">
+                    7
+                </div>
+                <div id="d4" class="class2">
+                    8
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="d6" class="class1">
+        <div id="d3" class="class1">
+            <div id="d5" class="class2">
+                <div id="d1" class="class2">
+                    9
+                </div>
+                <div id="d2" class="class2">
+                    10
+                </div>
+            </div>
+            <div id="d6" class="class2">
+                <div id="d3" class="class2">
+                    11
+                </div>
+                <div id="d4" class="class2">
+                    12
+                </div>
+            </div>
+        </div>
+        <div id="d4" class="class1">
+            <div id="d5" class="class2">
+                <div id="d1" class="class2">
+                    13
+                </div>
+                <div id="d2" class="class2">
+                    14
+                </div>
+            </div>
+            <div id="d6" class="class2">
+                <div id="d3" class="class2">
+                    15
+                </div>
+                <div id="d4" class="class2">
+                    16
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

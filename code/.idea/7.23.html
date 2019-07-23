@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7.23</title>
+</head>
+<script type="text/javascript">
+    function test01(){
+        var a = navigator.userAgent;
+        alert(a);
+    }
+    function test02() {
+        location.href="https://www.jd.com"
+    }
+    function test03() {
+        location.reload();
+    }
+    function test04() {
+        history.forward();
+    }
+    function test05() {
+        history.go(1);//此处参数改为0可实现刷新效果，跟location.reload()效果一样。
+    }
+    function test06() {
+        var a=document.getElementById("div1");
+        div1.style.backgroundColor="blue";
+    }
+    function test07() {
+        var a=document.getElementById("div1");
+        div1.style.border="solid 3px red";
+    }
+    function test08() {
+        var a=document.getElementById("div1");
+        div1.style.width="400px";
+        div1.style.height="400px";
+    }
+    function test09() {
+        var a=document.getElementById("div1");
+        div1.style.width="200px";
+        div1.style.height="220px";
+    }
+    function test10() {
+        var a=document.getElementById("div1");
+        div1.style="";
+    }
+</script>
+<style type="text/css">
+    #div1{
+        width: 300px;
+        height: 300px;
+        border: solid 2px #3388ff;
+        border-radius: 10px;
+        text-align: center;
+    }
+</style>
+<body>
+    <input type="button" value="配置属性" onclick="test01();">
+    <hr>
+    <input type="button" value="地址栏跳转属性" onclick="test02();">
+    <input type="button" value="地址栏刷新属性" onclick="test03();">
+    <hr>
+    <input type="button" value="历史前进属性1" onclick="test04();">
+    <input type="button" value="历史前进属性2" onclick="test05();">
+    <hr>
+    <div id="div1">
+        <input type="button" value="修改背景颜色" onclick="test06();">
+        <hr>
+        <input type="button" value="修改边框颜色" onclick="test07();">
+        <hr>
+        <input type="button" value="单击变大，双击还原" onclick="test08();" ondblclick="test10();">
+        <hr/>
+        <input type="button" value="变小" onclick="test09();">
+        <hr/>
+    </div>
+</body>
+</html>
