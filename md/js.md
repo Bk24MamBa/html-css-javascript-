@@ -46,3 +46,5 @@ alert();//弹窗
 ## document对象
 ![](pictures/_20190723152917.png)
 ![](pictures/_20190723155323.png)
+### js操作元素样式
+![](pictures/_20190723170024.png)
