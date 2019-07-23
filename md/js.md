@@ -45,4 +45,4 @@ alert();//弹窗
 浏览器配置属性**window.navigator.userAgent**
 ## document对象
 ![](pictures/_20190723152917.png)
-![](pictures/)
+![](pictures/_20190723155323.png)
