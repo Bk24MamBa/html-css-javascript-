@@ -43,3 +43,6 @@ alert();//弹窗
 ![](pictures/_20190723003448.png)
 ![](pictures/_20190723011155.png)
 浏览器配置属性**window.navigator.userAgent**
+## document对象
+![](pictures/_20190723152917.png)
+![](pictures/)
