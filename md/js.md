@@ -51,3 +51,6 @@ alert();//弹窗
 ### js操作元素的文档机构
 ![](pictures/_20190724105307.png)
 ![](pictures/_20190724124936.png)
+### js操作form表单
+![](pictures/_20190724131655.png)
+![](pictures/_20190724150436.png)
