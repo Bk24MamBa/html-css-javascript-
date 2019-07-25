@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7.25(2)</title>
+</head>
+<style type="text/css">
+    tr{
+        height: 50px;
+    }
+    table{
+        margin: auto;
+        margin-top: 200px;
+        text-align: center;
+    }
+</style>
+<script type="text/javascript">
+    function change(bt) {
+        var tb=bt.parentNode.parentNode;
+        var num=tb.cells[3];
+        if(!isNaN(num.innerHTML)){
+            num.innerHTML="<input type='text' value='"+num.innerHTML+"' id='inp' onblur='test(this)'>";
+        }
+    }
+    function test(inp) {
+        var cell=inp.parentNode;
+        cell.innerHTML=inp.value;
+    }
+    function del(bt) {
+        var t=document.getElementById("t");
+        var row=bt.parentNode.parentNode;
+        t.deleteRow(row.rowIndex);
+    }
+</script>
+<body>
+<table border="solid 1px" id="t">
+    <tr>
+        <td width="200">书名</td>
+        <td width="200">作者</td>
+        <td width="200">价格</td>
+        <td width="200">数量</td>
+        <td width="200">操作</td>
+    </tr>
+    <tr>
+        <td>Java</td>
+        <td>陈</td>
+        <td>40.0</td>
+        <td id="num">2</td>
+        <td>
+            <input type="button" value="修改数量" onclick="change(this);">
+            <input type="button" value="删除" onclick="del(this);">
+        </td>
+    </tr>
+    <tr>
+        <td>JavaScript</td>
+        <td>王</td>
+        <td>39.0</td>
+        <td>3</td>
+        <td>
+            <input type="button" value="修改数量" onclick="change(this);">
+            <input type="button" value="删除" onclick="del(this);">
+        </td>
+    </tr>
+    <tr>
+        <td>C语言</td>
+        <td>林</td>
+        <td>40.0</td>
+        <td>1</td>
+        <td>
+            <input type="button" value="修改数量" onclick="change(this);">
+            <input type="button" value="删除" onclick="del(this);">
+        </td>
+    </tr>
+</table>
+</body>
+</html>
