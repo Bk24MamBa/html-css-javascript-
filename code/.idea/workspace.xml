@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e915ba8-c2dd-47f9-9930-bbfca15ba500" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/7.24.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/7.24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/7.25.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,25 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/7.23.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/7.24.html">
+        <entry file="file://$PROJECT_DIR$/.idea/7.25.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-              <folding>
-                <element signature="e#3358#3364#1" expanded="true" />
-                <element signature="e#3364#3370#0" expanded="true" />
-                <element signature="e#3370#3376#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="558">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -64,6 +51,7 @@
         <option value="$PROJECT_DIR$/.idea/jisuanqi.html" />
         <option value="$PROJECT_DIR$/.idea/7.23.html" />
         <option value="$PROJECT_DIR$/.idea/7.24.html" />
+        <option value="$PROJECT_DIR$/.idea/7.25.html" />
       </list>
     </option>
   </component>
@@ -96,6 +84,11 @@
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="pictures" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -153,12 +146,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563038418917</updated>
       <workItem from="1563038425549" duration="28583000" />
-      <workItem from="1563876007850" duration="14297000" />
+      <workItem from="1563876007850" duration="16244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42880000" />
+    <option name="totallyTimeSpent" value="44827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -298,6 +291,13 @@
             <element signature="e#3364#3370#0" expanded="true" />
             <element signature="e#3370#3376#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/7.25.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
         </state>
       </provider>
     </entry>

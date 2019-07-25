@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7.25</title>
+</head>
+<style type="text/css">
+    div{
+        width: 450px;
+        height: 600px;
+        border-radius: 20px;
+        border: solid 2px #cad1d7;
+        margin: auto;
+        margin-top: 150px;
+    }
+    #ta{
+        margin: auto;
+        margin-top: 18px;
+    }
+</style>
+<script type="text/javascript">
+    function test1(img) {
+        img.style.border="solid 2px red";
+        var big=document.getElementById("big");
+        big.src="../pictures/camera.png";
+    }
+    function test2(img) {
+        img.style.border="";
+        var big=document.getElementById("big");
+        big.src="../Github.jpg";
+    }
+</script>
+<body>
+    <div>
+        <table id="ta">
+            <tr>
+                <td colspan="4" width="400px" height="450px">
+                    <img src="../Github.jpg" height="450px" width="420px" id="big">
+                </td>
+            </tr>
+            <tr height="100px">
+                <td><img src="../Github.jpg" height="100" width="100" onmouseover="test1(this)" onmouseout="test2(this)"></td>
+                <td><img src="../Github.jpg" height="100" width="100" onmouseover="test1(this)" onmouseout="test2(this)"></td>
+                <td><img src="../Github.jpg" height="100" width="100" onmouseover="test1(this)" onmouseout="test2(this)"></td>
+                <td><img src="../Github.jpg" height="100" width="100" onmouseover="test1(this)" onmouseout="test2(this)"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
