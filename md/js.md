@@ -54,3 +54,6 @@ alert();//弹窗
 ### js操作form表单
 ![](pictures/_20190724131655.png)
 ![](pictures/_20190724150436.png)
+### js操作表格table
+![](pictures/_20190725210348.png)  
+**a.parentNode(a的父节点（上级标签）)**
