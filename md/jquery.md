@@ -9,6 +9,10 @@
 ![](pictures/_20190726134619.png)
 **类似于js的getattribute（）和setattribute（）**
 ## 操作元素内容
-![](pictures/_20190726143226.png)
+![](pictures/_20190726143226.png) 
 ## 操作元素样式
 ![](pictures/_20190726143045.png)
+## 操作文档结构
+![](pictures/_20190726174645.png)
+## 动态操作事件
+![](pictures/_20190726180722.png)
