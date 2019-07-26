@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e915ba8-c2dd-47f9-9930-bbfca15ba500" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/7.26.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/7.26.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../md/jquery.md" beforeDir="false" afterPath="$PROJECT_DIR$/../md/jquery.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/菜单案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/菜单案例.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,14 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/7.26.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
+            <state relative-caret-position="396">
               <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/菜单案例.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -57,10 +65,11 @@
         <option value="$PROJECT_DIR$/.idea/7.25.html" />
         <option value="$PROJECT_DIR$/.idea/7.25(2).html" />
         <option value="$PROJECT_DIR$/.idea/7.26.html" />
+        <option value="$PROJECT_DIR$/.idea/菜单案例.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="294" />
     <option name="y" value="43" />
     <option name="width" value="1400" />
@@ -151,15 +160,15 @@
       <option name="presentableId" value="Default" />
       <updated>1563038418917</updated>
       <workItem from="1563038425549" duration="28583000" />
-      <workItem from="1563876007850" duration="22799000" />
+      <workItem from="1563876007850" duration="25093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51382000" />
+    <option name="totallyTimeSpent" value="53676000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
@@ -324,11 +333,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/7.26.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
+        <state relative-caret-position="396">
           <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/菜单案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
         </state>
       </provider>
     </entry>
