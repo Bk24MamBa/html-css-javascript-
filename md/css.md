@@ -40,3 +40,6 @@
 
 ## css的定位
 ![](pictures/_20190717172912.png)
+## 设置背景图片适应div的大小使用background-size属性，一般设为cover即可使图片自动适应div的大小。
+## 让div充满整个页面
+![](pictures/_20190727194127.png)
