@@ -18,3 +18,6 @@
 注意：1.获取Cookie只能获取所有cookie，即用getCookies（）方法；  
 2.添加cookie是在response对象添加，而获取cookies是在request对象获取
 ![](pictures/_20190729214837.png)
+![](pictures/_20190730194557.png)
+![](pictures/_20190730194524.png)
+![](pictures/_20190730194309.png)
