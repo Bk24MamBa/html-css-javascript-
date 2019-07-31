@@ -24,3 +24,5 @@
 ![](pictures/_20190730233645.png)
 **request.getParameter("name")此处的name应该是html中标签的name属性的值，而不是id属性的值**
 ![](pictures/_20190801003314.png)
+## application对象
+![](pictures/_20190801004530.png)
