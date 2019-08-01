@@ -1,4 +1,14 @@
-# JavaWeb
+
+# 快捷键
+## alt+/ 内容提示
+## ctrl+alt+下箭头  快速向下复制
+## shift+alt+a  块编辑
+## shift+alt+L 自动定义变量
+## shift+回车键 快速到下一行
+## shift+alt+s 菜单对话框  
+
+***
+# JavaWeb  
 ## jsp
 可写java代码的html文件  
 **jsp->java(servlet文件)->class（可执行文件）**
