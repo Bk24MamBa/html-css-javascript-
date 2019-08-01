@@ -26,3 +26,5 @@
 ![](pictures/_20190801003314.png)
 ## application对象
 ![](pictures/_20190801004530.png)
+## 四种范围对象
+![](pictures/_20190801125803.png)
