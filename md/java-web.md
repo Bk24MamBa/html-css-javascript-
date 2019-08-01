@@ -43,3 +43,5 @@
 ![](pictures/_20190801133218.png)
 ![](pictures/_20190801141227.png)
 ![](pictures/_20190801192956.png)
+![](pictures/_20190801195136.png)
+![](pictures/_20190801195529.png)
