@@ -47,3 +47,5 @@
 ![](pictures/_20190801195529.png)
 ![](pictures/_20190802171836.png)
 ![](pictures/_20190802171735.png)
+![](pictures/_20190802173825.png)
+![](pictures/_20190802173915.png)
