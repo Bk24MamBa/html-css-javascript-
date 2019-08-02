@@ -51,3 +51,5 @@
 ![](pictures/_20190802173915.png)
 ![](pictures/_20190802223409.png)
 ![](pictures/_20190802235833.png)
+## JavaBean
+![](pictures/_20190803012458.png)
