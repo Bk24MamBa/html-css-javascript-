@@ -54,3 +54,5 @@
 ## JavaBean
 ![](pictures/_20190803012458.png)
 # 8.3 实战jsp访问数据库
+## MVC模式
+![](pictures/_20190803215654.png)
