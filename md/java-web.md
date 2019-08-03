@@ -6,6 +6,7 @@
 ## shift+alt+L 自动定义变量
 ## shift+回车键 快速到下一行
 ## shift+alt+s 菜单对话框  
+## ctrl+D 删除光标所在的整行
 
 ***
 # JavaWeb  
