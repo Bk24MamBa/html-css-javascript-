@@ -67,3 +67,7 @@
 ## Servlet总结：在Eclipse中的src创建一个Servlet，然后重写doGet（），doPost（）即可（doGet（），doPost（）只需写一个，另一个调用该方法即可）
 **MVC案例**
 ![](pictures/_20190804190653.png)
+## 三层架构
+![](pictures/_20190804223524.png)
+## MVC与三层架构的关系
+![](pictures/_20190804223326.png)
