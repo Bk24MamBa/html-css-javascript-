@@ -65,3 +65,5 @@
 ![](pictures/_20190804173644.png)
 ![](pictures/_20190804174443.png)
 ## Servlet总结：在Eclipse中的src创建一个Servlet，然后重写doGet（），doPost（）即可（doGet（），doPost（）只需写一个，另一个调用该方法即可）
+**MVC案例**
+![](pictures/_20190804190653.png)
