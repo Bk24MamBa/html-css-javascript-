@@ -60,3 +60,5 @@
 ![](pictures/_20190803220524.png)
 ![](pictures/_20190803221029.png)
 ![](pictures/_20190803222047.png)
+## Servlet生命周期
+![](pictures/_20190804113042.png)
