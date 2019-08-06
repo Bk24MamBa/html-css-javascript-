@@ -11,10 +11,10 @@ import Model.Student;
 
 public class studentDao {
 	public boolean isExist(String name) {
-		return (querybyname(name)!=null);
+		return querybyname(name)==null?false:true;
 	}
 	public Student querybyname(String name) {
-		Student student=new Student();
+		Student student=null;
 		Connection connection=null;
 		PreparedStatement preparedStatement=null;
 		ResultSet resultSet=null;
@@ -28,12 +28,11 @@ public class studentDao {
 			preparedStatement=connection.prepareStatement(sql);
 			preparedStatement.setString(1, name);
 			resultSet=preparedStatement.executeQuery();
-			if (resultSet!=null) {
-				String name1=resultSet.getString("name");
+			if (resultSet.next()) {
 				String pwd=resultSet.getString("pwd");
 				int age=resultSet.getInt("age");
 				String address=resultSet.getString("address");
-				student=new Student(name1,pwd,age,address);
+				student=new Student(name,pwd,age,address);
 			}
 			return student;
 		} catch (Exception e) {

@@ -7,6 +7,13 @@
 <head>
 <meta charset="UTF-8">
 <title>学生列表</title>
+<style type="text/css">
+	table{
+		text-align:center;
+		margin:auto;
+		margin-top:300px;
+	}
+</style>
 </head>
 <body>
 	<table border="2px">
@@ -22,7 +29,7 @@
 			for(Student student:students){
 		%>
 				<tr>
-				<td><%=student.getName() %></td>
+				<td><a href="QuerybynameServlet?name=<%=student.getName() %>"><%=student.getName() %></a></td>
 				<td><%=student.getPwd() %></td>
 				<td><%=student.getAge() %></td>
 				<td><%=student.getAddress() %></td>
