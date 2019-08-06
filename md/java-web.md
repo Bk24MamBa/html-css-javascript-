@@ -72,3 +72,10 @@
 ![](pictures/_20190804224146.png)
 ## MVC与三层架构的关系
 ![](pictures/_20190804223326.png)
+# 8.6三层架构实战
+**Student student=null;此处声明student类的时候必须声明为null，而不是new Student（），否则return的student将会是空的！**  
+**int b=Integer.parseInt（String a）将字符a转为整形b**
+## Debug
+### 双击行数前面设置断点
+### F6单步执行
+### F8单步跳过
