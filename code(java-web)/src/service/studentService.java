@@ -15,10 +15,8 @@ public class studentService {
 		return studentDao.querybyAll();
 	}
 	public boolean addstudent(Student student){
-		if(!studentDao.isExist(student.getName())){
-			return studentDao.addStudent(student);
-		}
-		return false;
+		studentDao.addStudent(student);
+		return true;
 	}
 	public boolean deletebyname(String name){
 			return studentDao.deletebyname(name);

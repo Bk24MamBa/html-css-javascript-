@@ -13,6 +13,11 @@
 		margin:auto;
 		margin-top:300px;
 	}
+	#xin{
+		position:absolute;
+		top:490px;
+		left:1200px;
+	}
 </style>
 </head>
 <body>
@@ -38,6 +43,7 @@
 		<%	
 			}
 		%>
+		<a href="addstudent.jsp" id="xin">新增</a>
 	</table>
 </body>
 </html>
