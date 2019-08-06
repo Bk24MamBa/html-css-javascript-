@@ -11,7 +11,7 @@ import Model.Student;
 
 public class studentDao {
 	public boolean isExist(String name) {
-		return querybyname(name)!=null;
+		return (querybyname(name)!=null);
 	}
 	public Student querybyname(String name) {
 		Student student=new Student();

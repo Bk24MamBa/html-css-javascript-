@@ -15,6 +15,7 @@
 			<th>密码</th>
 			<th>年龄</th>
 			<th>住址</th>
+			<th>操作</th>
 		</tr>
 		<%
 			List<Student> students=(List<Student>)request.getAttribute("students");
@@ -25,6 +26,7 @@
 				<td><%=student.getPwd() %></td>
 				<td><%=student.getAge() %></td>
 				<td><%=student.getAddress() %></td>
+				<td><a href="DeletebynameServlet?name=<%=student.getName() %>">删除</a></td>
 				</tr>
 		<%	
 			}
