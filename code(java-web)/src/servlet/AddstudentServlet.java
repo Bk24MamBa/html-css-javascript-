@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.jasper.tagplugins.jstl.core.Out;
+
 import Model.Student;
 import service.studentService;
 
@@ -22,8 +24,14 @@ public class AddstudentServlet extends HttpServlet {
 		String address=request.getParameter("address");
 		Student student=new Student(name, pwd, age, address);
 		studentService service=new studentService();
-		service.addstudent(student);
-		response.sendRedirect("QuerybyallServlet");
+		response.setCharacterEncoding("utf-8");
+		if(service.querybyname(name)==null) {
+			service.addstudent(student);
+			response.sendRedirect("QuerybyallServlet");
+		}else {
+			response.getWriter().println("The name of the student is existed,added fail!");
+		}
+		
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

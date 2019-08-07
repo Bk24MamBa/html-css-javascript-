@@ -16,7 +16,7 @@
 	#xin{
 		position:absolute;
 		top:490px;
-		left:1200px;
+		left:1205px;
 	}
 </style>
 </head>
