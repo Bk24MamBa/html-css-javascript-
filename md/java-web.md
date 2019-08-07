@@ -76,6 +76,8 @@
 **Student student=null;此处声明student类的时候必须声明为null，而不是new Student（），否则return的student将会是空的！**  
 **int b=Integer.parseInt（String a）将字符a转为整形b**
 ## Debug
+![](pictures/_20190807150542.png)
+点击最左边 可跳过所有断点，相当于正常模式执行
 ### 双击行数前面设置断点
 ### F6单步执行
 ### F8单步跳过
