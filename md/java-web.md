@@ -99,7 +99,11 @@
 ## JSTL
 ![](pictures/_20190812144252.png)
 ![](pictures/_20190812145432.png)
-![](pictures/_20190812151725.png)
+![](pictures/_20190812151725.png)  
+迭代标签<c: foreach>
+```<c: foreach begin="0" end="5" step="1">  
+	从0到5依次加一 共执行6次
+</c: foreach>```
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
