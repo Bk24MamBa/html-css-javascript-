@@ -99,7 +99,7 @@
 ## JSTL
 ![](pictures/_20190812144252.png)
 ![](pictures/_20190812145432.png)
-![](pictures/)
+![](pictures/_20190812151725.png)
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
