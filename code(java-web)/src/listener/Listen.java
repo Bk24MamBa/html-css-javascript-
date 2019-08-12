@@ -33,6 +33,7 @@ public class Listen implements ServletContextListener, HttpSessionListener, Serv
      */
     public void sessionCreated(HttpSessionEvent arg0)  { 
          // TODO Auto-generated method stub
+    	System.out.println("---Æô¶¯session¼àÌı---");
     }
 
 	/**
@@ -40,6 +41,7 @@ public class Listen implements ServletContextListener, HttpSessionListener, Serv
      */
     public void attributeRemoved(ServletContextAttributeEvent arg0)  { 
          // TODO Auto-generated method stub
+    	System.out.println("---applicationÒÆ³ıÊôĞÔ---");
     }
 
 	/**
@@ -47,6 +49,7 @@ public class Listen implements ServletContextListener, HttpSessionListener, Serv
      */
     public void attributeAdded(ServletRequestAttributeEvent arg0)  { 
          // TODO Auto-generated method stub
+    	System.out.println("---requestÔö¼ÓÊôĞÔ---");
     }
 
 	/**
@@ -54,6 +57,7 @@ public class Listen implements ServletContextListener, HttpSessionListener, Serv
      */
     public void attributeReplaced(HttpSessionBindingEvent arg0)  { 
          // TODO Auto-generated method stub
+    	System.out.println("---sessionÌæ»»ÊôĞÔ---");
     }
 
 	/**
@@ -69,6 +73,7 @@ public class Listen implements ServletContextListener, HttpSessionListener, Serv
      */
     public void attributeAdded(ServletContextAttributeEvent arg0)  { 
          // TODO Auto-generated method stub
+    	System.out.println("---applicationÔö¼ÓÊôĞÔ---");
     }
 
 	/**
@@ -76,6 +81,7 @@ public class Listen implements ServletContextListener, HttpSessionListener, Serv
      */
     public void requestDestroyed(ServletRequestEvent arg0)  { 
          // TODO Auto-generated method stub
+    	System.out.println("---Ïú»Ùrequest¼àÌı---");
     }
 
 	/**
@@ -83,6 +89,7 @@ public class Listen implements ServletContextListener, HttpSessionListener, Serv
      */
     public void attributeRemoved(ServletRequestAttributeEvent arg0)  { 
          // TODO Auto-generated method stub
+    	System.out.println("---requestÒÆ³ıÊôĞÔ---");
     }
 
 	/**
@@ -90,6 +97,7 @@ public class Listen implements ServletContextListener, HttpSessionListener, Serv
      */
     public void requestInitialized(ServletRequestEvent arg0)  { 
          // TODO Auto-generated method stub
+    	System.out.println("---Æô¶¯request¼àÌı---");
     }
 
 	/**
@@ -97,6 +105,7 @@ public class Listen implements ServletContextListener, HttpSessionListener, Serv
      */
     public void sessionDestroyed(HttpSessionEvent arg0)  { 
          // TODO Auto-generated method stub
+    	System.out.println("---Ïú»Ùsession¼àÌı---");
     }
 
 	/**
@@ -112,6 +121,7 @@ public class Listen implements ServletContextListener, HttpSessionListener, Serv
      */
     public void attributeReplaced(ServletRequestAttributeEvent arg0)  { 
          // TODO Auto-generated method stub
+    	System.out.println("---requestÌæ»»ÊôĞÔ---");
     }
 
 	/**
@@ -119,6 +129,7 @@ public class Listen implements ServletContextListener, HttpSessionListener, Serv
      */
     public void attributeAdded(HttpSessionBindingEvent arg0)  { 
          // TODO Auto-generated method stub
+    	System.out.println("---applicationÒÆ³ıÊôĞÔ---");
     }
 
 	/**
@@ -126,6 +137,7 @@ public class Listen implements ServletContextListener, HttpSessionListener, Serv
      */
     public void attributeRemoved(HttpSessionBindingEvent arg0)  { 
          // TODO Auto-generated method stub
+    	System.out.println("---sessionÒÆ³ıÊôĞÔ---");
     }
 
 	/**
@@ -133,6 +145,7 @@ public class Listen implements ServletContextListener, HttpSessionListener, Serv
      */
     public void attributeReplaced(ServletContextAttributeEvent arg0)  { 
          // TODO Auto-generated method stub
+    	System.out.println("---applicationÌæ»»ÊôĞÔ---");
     }
 	
 }
