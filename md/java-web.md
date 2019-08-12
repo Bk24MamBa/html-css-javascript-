@@ -104,7 +104,7 @@
 ```<c: foreach begin="0" end="5" step="1">  
 	从0到5依次加一 共执行6次
 </c: foreach>```
-![](pictures/)
+![](pictures/_20190812155406.png)
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
