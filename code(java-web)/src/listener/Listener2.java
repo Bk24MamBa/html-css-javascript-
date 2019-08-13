@@ -6,6 +6,25 @@ import javax.servlet.http.HttpSessionBindingListener;
 import javax.servlet.http.HttpSessionEvent;
 
 public class Listener2 implements HttpSessionBindingListener,HttpSessionActivationListener{
+	
+	private int id;
+	private String name;
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 
 	@Override
 	public void sessionDidActivate(HttpSessionEvent se) {

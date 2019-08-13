@@ -13,6 +13,8 @@
 // 		request.setAttribute("name1", "MB2");
 // 		request.removeAttribute("name1");
 		Listener2 listener2=new Listener2();
+		listener2.setId(24);
+		listener2.setName("BK MamBa");
 		session.setAttribute("a", listener2);
 // 		application.setAttribute("name3", "MB3");
 // 		application.setAttribute("name3", "MB4");

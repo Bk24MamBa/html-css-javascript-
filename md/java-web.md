@@ -119,5 +119,15 @@
     <Manager classname="org.apache.catalina.session.PersistentManager" maxIdleSwap="3">//三秒不操作则进行钝化操作，将session从内存存到硬盘MB目录中
     	<Store classname="org.apache.catalina.session.FileStore" directory="MB"/>
     </Manager>
+## Ajax
+![](pictures/)
+![](pictures/_20190813160828.png)
+![](pictures/)
+![](pictures/)
+![](pictures/)
+![](pictures/)
+![](pictures/)
+![](pictures/)
+![](pictures/)
 ![](pictures/)
 ![](pictures/)
