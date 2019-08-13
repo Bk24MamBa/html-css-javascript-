@@ -111,7 +111,8 @@
 ![](pictures/_20190812171653.png)
 ## 监听器
 ![](pictures/_20190812195624.png)
+### session的四种状态（绑定、解绑、钝化、活化）
 ![](pictures/_20190813004751.png)
-![](pictures/)
+![](pictures/_20190813125144.png)
 ![](pictures/)
 ![](pictures/)
