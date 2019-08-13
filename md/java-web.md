@@ -1,5 +1,6 @@
 
 # Eclipse快捷键
+## ctrl+shift+c 注释光标所选定行
 ## alt+/ 内容提示
 ## ctrl+alt+下箭头  快速向下复制
 ## shift+alt+a  块编辑
