@@ -120,6 +120,8 @@
     	<Store classname="org.apache.catalina.session.FileStore" directory="MB"/>
     </Manager>
 ## Ajax
+**异步刷新js和xml**  
+**异步刷新：如果一个网页中只有某个地方需要修改（百度搜索栏提示/视频点赞等），异步刷新可以使得网页只有一部分被修改，而其他地方不变，不需要刷新整个页面。**
 ![](pictures/)
 ![](pictures/_20190813160828.png)
 ![](pictures/)
