@@ -22,7 +22,7 @@ public class PhoneServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
 		response.setCharacterEncoding("utf-8");
-		String phone=request.getParameter("phone");
+   		String phone=request.getParameter("phone");
 		PrintWriter out=response.getWriter();
 		if("2408".equals(phone)) {
 			out.print("true");

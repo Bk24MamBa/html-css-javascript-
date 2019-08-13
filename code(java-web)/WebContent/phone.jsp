@@ -9,7 +9,7 @@
 </head>
 <script type="text/javascript">
 	function zc(){
-		alert(phone);
+		var phone=$("#phone").val();
 		$.ajax({
 			url:"PhoneServlet",
 			type:"get",
@@ -25,6 +25,30 @@
 				alert("系统异常！");
 			},
 		});
+		$.get(
+			"PhoneServlet",
+			"phone="+phone,
+			function(result){
+				if(result=="true"){
+					alert("该号码已存在，注册失败！");
+				}else{
+					alert("注册成功1！");
+				}
+			},
+			"text"
+		);
+		$.post(
+			"PhoneServlet",
+			"phone="+phone,
+			function(result){
+				if(result=="true"){
+					alert("该号码已存在，注册失败！");
+				}else{
+					alert("注册成功2！");
+				}
+			},
+			"text"
+		);
 	}
 </script>
 <body>
