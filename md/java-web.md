@@ -115,5 +115,9 @@
 ### session的四种状态（绑定、解绑、钝化、活化）
 ![](pictures/_20190813004751.png)
 ![](pictures/_20190813125144.png)
+### 钝化配置
+    <Manager classname="org.apache.catalina.session.PersistentManager" maxIdleSwap="3">//三秒不操作则进行钝化操作，将session从内存存到硬盘MB目录中
+    	<Store classname="org.apache.catalina.session.FileStore" directory="MB"/>
+    </Manager>
 ![](pictures/)
 ![](pictures/)
