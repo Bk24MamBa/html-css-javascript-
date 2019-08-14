@@ -135,5 +135,18 @@ jsp![](pictures/_20190814140926.png)
 ### 有多个json对象
 servlet![](pictures/_20190814141225.png)  
 jsp![](pictures/_20190814141105.png)
+# IDEA
+## 解决tomcat乱码问题
+![](pictures/_20190814144833.png)
+## 热部署
+![](pictures/_20190814144656.png)
+![](pictures/)
+![](pictures/)
+![](pictures/)
+![](pictures/)
+![](pictures/)
+![](pictures/)
+![](pictures/)
+![](pictures/)
 ![](pictures/)
 ![](pictures/)
