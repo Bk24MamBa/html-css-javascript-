@@ -25,9 +25,9 @@ public class PhoneServlet extends HttpServlet {
    		String phone=request.getParameter("phone");
 		PrintWriter out=response.getWriter();
 		if("2408".equals(phone)) {
-			out.print("true");
+			out.print("{\"msg\":\"true\"}");
 		}else {
-			out.print("false");
+			out.print("{\"msg\":\"false\"}");
 		}
 	}
 
