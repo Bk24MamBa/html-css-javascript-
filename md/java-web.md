@@ -140,7 +140,10 @@ jsp![](pictures/_20190814141105.png)
 ![](pictures/_20190814144833.png)
 ## 热部署
 ![](pictures/_20190814144656.png)
-![](pictures/)
+## JNDI
+![](pictures/_20190814172914.png)
+## 连接池
+![](pictures/_20190814172635.png)
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
