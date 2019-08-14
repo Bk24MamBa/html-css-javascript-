@@ -127,9 +127,13 @@
 ![](pictures/_20190813173050.png)
 实战：phone.jsp PhoneServlet.java
 ![](pictures/_20190814122522.png)
-![](pictures/)
-![](pictures/)
-![](pictures/)
-![](pictures/)
+Ajax处理JSON对象  
+导jar包  
+### 只有一个json对象
+servlet![](pictures/_20190814140636.png)  
+jsp![](pictures/_20190814140926.png)
+### 有多个json对象
+servlet![](pictures/)  
+jsp![](pictures/_20190814141105.png)
 ![](pictures/)
 ![](pictures/)
