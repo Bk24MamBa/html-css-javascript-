@@ -130,10 +130,10 @@
 Ajax处理JSON对象  
 导jar包  
 ### 只有一个json对象
-servlet![](pictures/_20190814140636.png)  
+servlet  ![](pictures/_20190814140636.png)  
 jsp![](pictures/_20190814140926.png)
 ### 有多个json对象
-servlet![](pictures/)  
+servlet![](pictures/_20190814141225.png)  
 jsp![](pictures/_20190814141105.png)
 ![](pictures/)
 ![](pictures/)
