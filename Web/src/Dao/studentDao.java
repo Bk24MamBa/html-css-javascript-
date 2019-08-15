@@ -9,6 +9,10 @@ import java.util.List;
 
 import Model.Student;
 
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.sql.DataSource;
+
 public class studentDao {
 	public boolean isExist(String name) {
 		return querybyname(name)==null?false:true;
@@ -131,7 +135,11 @@ public class studentDao {
 		String password="123456";
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			connection=DriverManager.getConnection(url, user, password);
+			Context context=new InitialContext();
+			DataSource dataSource=(DataSource)context.lookup("java:comp/env/student");
+			connection=dataSource.getConnection();
+			System.out.println("连接池！");
+//			connection=DriverManager.getConnection(url, user, password);
 			String sql="delete from student where name=?";
 			preparedStatement=connection.prepareStatement(sql);
 			preparedStatement.setString(1, name);

@@ -17,7 +17,7 @@
             Context c=new InitialContext();
             String s=(String) c.lookup("java:/comp/env/JdniName");
             out.print(s);
-        %>
-        <a href="DeletebynameServlet?name=24">servlet</a>
+        %><br>
+        <a href="DeletebynameServlet?name=24">DeletebynameServlet</a>
   </body>
 </html>
