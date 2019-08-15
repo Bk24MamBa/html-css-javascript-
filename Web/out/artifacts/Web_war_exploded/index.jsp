@@ -18,6 +18,6 @@
             String s=(String) c.lookup("java:/comp/env/JdniName");
             out.print(s);
         %><br>
-        <a href="DeletebynameServlet?name=24">DeletebynameServlet</a>
+        <a href="DeletebynameServlet?name=NBA">DeletebynameServlet</a>
   </body>
 </html>

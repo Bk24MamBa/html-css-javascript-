@@ -138,7 +138,6 @@ public class studentDao {
 			Context context=new InitialContext();
 			DataSource dataSource=(DataSource)context.lookup("java:comp/env/student");
 			connection=dataSource.getConnection();
-			System.out.println("连接池！");
 //			connection=DriverManager.getConnection(url, user, password);
 			String sql="delete from student where name=?";
 			preparedStatement=connection.prepareStatement(sql);
