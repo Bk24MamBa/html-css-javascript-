@@ -138,7 +138,7 @@ jsp![](pictures/_20190814141105.png)
 # IDEA
 ## 解决tomcat乱码问题
 **conf目录中的logging.properties中**
-![](pictures/_20190814231301.png)
+![](pictures/_20190815212849.png)
 ![](pictures/_20190814144833.png)
 ## 热部署
 ![](pictures/_20190814144656.png)
