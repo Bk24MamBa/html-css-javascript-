@@ -1,4 +1,5 @@
-<%--
+<%@ page import="javax.naming.Context" %>
+<%@ page import="javax.naming.InitialContext" %><%--
   Created by IntelliJ IDEA.
   User: Bk MamBa
   Date: 2019/8/14
@@ -12,6 +13,11 @@
   </head>
   <body>
         Hello IDEA!112
-        <a href="aservlet">servlet</a>
+        <%
+            Context c=new InitialContext();
+            String s=(String) c.lookup("java:/comp/env/JdniName");
+            out.print(s);
+        %>
+        <a href="DeletebynameServlet?name=24">servlet</a>
   </body>
 </html>
