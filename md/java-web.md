@@ -9,6 +9,12 @@
 ## shift+alt+s 菜单对话框  
 ## ctrl+D 删除光标所在的整行
 
+# IDEA-Debug
+![](pictures/_20190816113249.png)
+![](pictures/_20190816113432.png)
+![](pictures/)
+![](pictures/)
+
 ***
 # JavaWeb  
 ## jsp
