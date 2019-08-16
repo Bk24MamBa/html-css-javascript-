@@ -1,0 +1,8 @@
+<!--pages/index1/index1.wxml-->
+<text class="m">{{a}} MamBa</text>
+<text class="m">{{b}}</text>
+<checkbox class="m" checked="{{true}}"></checkbox>
+<view wx:for="{{person}}" wx:key="{{index}}" class="m">
+  {{index}}:{{item}}
+</view>
+

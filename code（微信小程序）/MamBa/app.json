@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index1/index1",
+    "pages/index/index",
+  
+    "pages/logs/logs"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "Just Do it",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle":"dark"
+  },
+  "tabBar": {
+    "backgroundColor":"#0094ff",
+    "color":"white",
+    "borderStyle":"white",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "Today",
+      "iconPath": "",
+      "selectedIconPath": ""
+    },
+    {
+        "pagePath": "pages/index1/index1",
+        "text": "All",
+        "iconPath": "",
+        "selectedIconPath": ""
+    }
+    ]
+  }  
+}
