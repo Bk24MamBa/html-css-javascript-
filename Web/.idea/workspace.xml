@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2524b5b8-cc37-468c-800b-773fbaca2c8a" name="Default Changelist" comment="" />
+    <list default="true" id="2524b5b8-cc37-468c-800b-773fbaca2c8a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -470,12 +472,12 @@
       <option name="presentableId" value="Default" />
       <updated>1565766097383</updated>
       <workItem from="1565766105460" duration="8239000" />
-      <workItem from="1565862880913" duration="7390000" />
+      <workItem from="1565862880913" duration="7996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15629000" />
+    <option name="totallyTimeSpent" value="16235000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,7 +502,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32952183" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.34199584" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34199584" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
