@@ -8,7 +8,8 @@
 ![](pictures/_20190928185906.png)
 ## mysql的常见命令
 ![](pictures/_20190928192223.png)
-![](pictures/)
+## mysql的语法规范
+![](pictures/_20190928233004.png)
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
