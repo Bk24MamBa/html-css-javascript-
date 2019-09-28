@@ -6,7 +6,8 @@
 ![](pictures/_20190928185116.png)
 ## mysql服务的登录与退出
 ![](pictures/_20190928185906.png)
-![](pictures/)
+## mysql的常见命令
+![](pictures/_20190928192223.png)
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
