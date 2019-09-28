@@ -10,7 +10,8 @@
 ![](pictures/_20190928192223.png)
 ## mysql的语法规范
 ![](pictures/_20190928233004.png)
-![](pictures/)
+## 基础查询
+![](pictures/_20190929000718.png)
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
