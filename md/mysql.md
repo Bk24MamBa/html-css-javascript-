@@ -15,6 +15,7 @@
 ![](pictures/_20190929001608.png)
 查询表中的所有字段  
 ![](pictures/_20190929110241.png)
-![](pictures/)
+## 起别名
+![](pictures/_20190929110747.png)
 ![](pictures/)
 ![](pictures/)
