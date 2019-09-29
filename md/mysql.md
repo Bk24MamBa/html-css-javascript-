@@ -17,5 +17,6 @@
 ![](pictures/_20190929110241.png)
 ## 起别名
 ![](pictures/_20190929110747.png)
-![](pictures/)
+## 去重
+![](pictures/_20190929111134.png)
 ![](pictures/)
