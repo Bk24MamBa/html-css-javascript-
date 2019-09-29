@@ -21,7 +21,8 @@
 ![](pictures/_20190929111134.png)
 ## +号的作用
 ![](pictures/_20190929111823.png)
-![](pictures/)
+## 拼接
+![](pictures/_20190929112016.png)
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
