@@ -13,7 +13,8 @@
 ## 基础查询
 ![](pictures/_20190929000718.png)
 ![](pictures/_20190929001608.png)
-![](pictures/)
+查询表中的所有字段  
+![](pictures/_20190929110241.png)
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
