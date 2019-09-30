@@ -32,5 +32,5 @@
 ![](pictures/_20190930121304.png)
 `字符串要用''包含起来 ""也可以`
 ![](pictures/_20190930122042.png)
-![](pictures/)
+![](pictures/_20190930122124.png)
 ![](pictures/)
