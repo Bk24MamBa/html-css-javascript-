@@ -30,13 +30,14 @@
 ![](pictures/_20190930120619.png)
 ![](pictures/_20190930120745.png)**\表示转义**
 ![](pictures/_20190930120854.png)**ESCAPE表示后面的字符为转义字符**  
-![](pictures/_20190930121304.png)
-`字符串要用''包含起来 ""也可以`
+![](pictures/_20190930121304.png)  
+`字符串要用''包含起来 ""也可以`  
 ![](pictures/_20190930122042.png)
 ![](pictures/_20190930122124.png)
 ![](pictures/_20190930122426.png)
 ![](pictures/_20190930122759.png)
-![](pictures/)
+## 排序查询
+![](pictures/_20191006191613.png)
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
