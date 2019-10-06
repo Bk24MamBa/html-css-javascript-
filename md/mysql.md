@@ -43,7 +43,8 @@
 ![](pictures/_20191006192343.png)
 ### 案例
 ![](pictures/_20191006193213.png)
-![](pictures/)
+## 常见函数
+![](pictures/_20191006193636.png)
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
