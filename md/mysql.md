@@ -23,6 +23,7 @@
 ![](pictures/_20190929111823.png)
 ### 拼接
 ![](pictures/_20190929112016.png)
+![](pictures/_20191006190007.png)
 ## 条件查询
 ![](pictures/_20190929113352.png)
 ![](pictures/_20190929113453.png)
@@ -35,7 +36,6 @@
 ![](pictures/_20190930122124.png)
 ![](pictures/_20190930122426.png)
 ![](pictures/_20190930122759.png)
-![](pictures/)
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
