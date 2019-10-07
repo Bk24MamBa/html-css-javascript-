@@ -47,8 +47,7 @@
 ![](pictures/_20191006193636.png)
 ### 字符函数
 ![](pictures/_20191007155640.png)
-
-![](pictures/)
+![](pictures/_20191007155753.png)
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
