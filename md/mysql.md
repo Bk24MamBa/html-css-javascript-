@@ -48,7 +48,8 @@
 ### 字符函数
 ![](pictures/_20191007155640.png)
 ![](pictures/_20191007155753.png)
-![](pictures/)
+### 数学函数
+![](pictures/_20191007160236.png)
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
