@@ -281,15 +281,12 @@
     WHERE email LIKE '%a%'
     GROUP BY department_id;
     
-    
     #案例2：查询有奖金的每个领导手下员工的平均工资
     
     SELECT AVG(salary),manager_id
     FROM employees
     WHERE commission_pct IS NOT NULL
     GROUP BY manager_id;
-    
-    
     
     #3、分组后筛选
     
@@ -309,7 +306,6 @@
     
     HAVING COUNT(*)>5;
     
-    
     #案例2：每个工种有奖金的员工的最高工资>12000的工种编号和最高工资
     
     SELECT job_id,MAX(salary)
@@ -317,7 +313,6 @@
     WHERE commission_pct IS NOT NULL
     GROUP BY job_id
     HAVING MAX(salary)>12000;
-    
     
     #案例3：领导编号>102的每个领导手下的最低工资大于5000的领导编号和最低工资
     
@@ -327,5 +322,24 @@
     FROM employees
     GROUP BY manager_id
     HAVING MIN(salary)>5000;
-
+    #4.添加排序
+    
+    #案例：每个工种有奖金的员工的最高工资>6000的工种编号和最高工资,按最高工资升序
+    
+    SELECT job_id,MAX(salary) m
+    FROM employees
+    WHERE commission_pct IS NOT NULL
+    GROUP BY job_id
+    HAVING m>6000
+    ORDER BY m ;
+    
+    #5.按多个字段分组
+    
+    #案例：查询每个工种每个部门的最低工资,并按最低工资降序
+    
+    SELECT MIN(salary),job_id,department_id
+    FROM employees
+    GROUP BY department_id,job_id
+    ORDER BY MIN(salary) DESC;
+    
 ![](pictures/)
