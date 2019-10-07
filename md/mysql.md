@@ -229,7 +229,50 @@
     #6、和分组函数一同查询的字段有限制
     
     SELECT AVG(salary),employee_id  FROM employees;//不这样使用，一个是分组函数，一个是单行函数！
-
+### 分组查询
+    进阶5：分组查询
+    /*
+    语法：
+    select 查询列表
+    from 表
+    【where 筛选条件】
+    group by 分组的字段
+    【order by 排序的字段】;
+    
+    特点：
+    1、和分组函数一同查询的字段必须是group by后出现的字段
+    2、筛选分为两类：分组前筛选和分组后筛选
+    		针对的表			位置		连接的关键字
+    分组前筛选	原始表				group by前	where
+    	
+    分组后筛选	group by后的结果集		group by后	having
+    
+    问题1：分组函数做筛选能不能放在where后面
+    答：不能
+    
+    问题2：where——group by——having
+    
+    一般来讲，能用分组前筛选的，尽量使用分组前筛选，提高效率
+    
+    3、分组可以按单个字段也可以按多个字段
+    4、可以搭配着排序使用
+    */
+    #引入：查询每个部门的员工个数
+    
+    SELECT COUNT(*) FROM employees WHERE department_id=90;
+    #1.简单的分组
+    
+    #案例1：查询每个工种的员工平均工资
+    SELECT AVG(salary),job_id
+    FROM employees
+    GROUP BY job_id;
+    
+    #案例2：查询每个位置的部门个数
+    
+    SELECT COUNT(*),location_id
+    FROM departments
+    GROUP BY location_id;
+    
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
