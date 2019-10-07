@@ -219,7 +219,7 @@
     
     SELECT COUNT(*) FROM employees;
     
-    SELECT COUNT(1) FROM employees;
+    SELECT COUNT(1) FROM employees;//与count（*）一致都可以统计行数
     
     效率：
     MYISAM存储引擎下  ，COUNT(*)的效率高
@@ -228,7 +228,7 @@
     
     #6、和分组函数一同查询的字段有限制
     
-    SELECT AVG(salary),employee_id  FROM employees;
+    SELECT AVG(salary),employee_id  FROM employees;//不这样使用，一个是分组函数，一个是单行函数！
 
 ![](pictures/)
 ![](pictures/)
