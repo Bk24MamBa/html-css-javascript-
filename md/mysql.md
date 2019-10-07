@@ -45,7 +45,9 @@
 ![](pictures/_20191006193213.png)
 ## 常见函数
 ![](pictures/_20191006193636.png)
-![](pictures/)
+### 字符函数
+![](pictures/_20191007155640.png)
+
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
