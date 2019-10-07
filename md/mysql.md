@@ -50,7 +50,7 @@
 ![](pictures/_20191007155753.png)
 ### 数学函数
 ![](pictures/_20191007160236.png)
-![](pictures/)
+![](pictures/_20191007160521.png)
 ![](pictures/)
 ![](pictures/)
 ![](pictures/)
