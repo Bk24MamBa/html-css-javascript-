@@ -272,23 +272,60 @@
     SELECT COUNT(*),location_id
     FROM departments
     GROUP BY location_id;
+    2、可以实现分组前的筛选
     
-![](pictures/)
-![](pictures/)
-![](pictures/)
-![](pictures/)
-![](pictures/)
-![](pictures/)
-![](pictures/)
-![](pictures/)
-![](pictures/)
-![](pictures/)
-![](pictures/)
-![](pictures/)
-![](pictures/)
-![](pictures/)
-![](pictures/)
-![](pictures/)
-![](pictures/)
-![](pictures/)
+    #案例1：查询邮箱中包含a字符的 每个部门的最高工资
+    
+    SELECT MAX(salary),department_id
+    FROM employees
+    WHERE email LIKE '%a%'
+    GROUP BY department_id;
+    
+    
+    #案例2：查询有奖金的每个领导手下员工的平均工资
+    
+    SELECT AVG(salary),manager_id
+    FROM employees
+    WHERE commission_pct IS NOT NULL
+    GROUP BY manager_id;
+    
+    
+    
+    #3、分组后筛选
+    
+    #案例：查询哪个部门的员工个数>5
+    
+    #①查询每个部门的员工个数
+    SELECT COUNT(*),department_id
+    FROM employees
+    GROUP BY department_id;
+    
+    #② 筛选刚才①结果
+    
+    SELECT COUNT(*),department_id
+    FROM employees
+    
+    GROUP BY department_id
+    
+    HAVING COUNT(*)>5;
+    
+    
+    #案例2：每个工种有奖金的员工的最高工资>12000的工种编号和最高工资
+    
+    SELECT job_id,MAX(salary)
+    FROM employees
+    WHERE commission_pct IS NOT NULL
+    GROUP BY job_id
+    HAVING MAX(salary)>12000;
+    
+    
+    #案例3：领导编号>102的每个领导手下的最低工资大于5000的领导编号和最低工资
+    
+    manager_id>102
+    
+    SELECT manager_id,MIN(salary)
+    FROM employees
+    GROUP BY manager_id
+    HAVING MIN(salary)>5000;
+
 ![](pictures/)
